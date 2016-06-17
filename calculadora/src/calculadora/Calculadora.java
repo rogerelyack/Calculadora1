@@ -27,7 +27,12 @@ public class Calculadora {
     return a*b;
     }
        float division(float a,float b){
+           if(b==0){
+           System.out.print("numero indeterminado");
+           return -1;
+           }
     return a/b;
+   
     }
     double potencia(double a,double b){
     return Math.pow(a,b);
