@@ -29,4 +29,7 @@ public class Calculadora {
        float division(float a,float b){
     return a/b;
     }
+    double potencia(double a,double b){
+    return Math.pow(a,b);
+    }
 }
